@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let person = "Alice"; // The variable names a, b, c, and d were vague and nondescript
+let appleQty = 2;
+let appleCost = 8;
+let orangeQty = 3;
+let orangeCost = 12;
+let totalQty = appleQty + orangeQty;
+let totalCost = appleCost + orangeCost;
+let shoppingSummary = person + " bought " + totalQty + " items for $" + totalCost + ".";
 
-console.log(d);
+console.log(shoppingSummary);
